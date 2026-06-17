@@ -7,6 +7,7 @@ Portfolio AI Engineer : API REST, intégration LLM (Anthropic Claude), et systè
 - **`main.py`** — API REST complète (CRUD liste de courses) construite avec FastAPI et Pydantic.
 - **`api_llm.py`** — Endpoint POST qui expose Claude via API, avec system prompt personnalisable.
 - **`api_rag.py`** — Système RAG complet : indexation d'un document, recherche par embeddings (ChromaDB + sentence-transformers), génération de réponses sourcées via Claude.
+- **`agent.py`** — Agent LLM avec tool use (boucle ReAct). Claude décide quelle fonction Python appeler pour répondre à la question (comptage d'occurrences, calcul).
 
 ## Stack technique
 
