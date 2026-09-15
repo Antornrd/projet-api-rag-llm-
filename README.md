@@ -24,7 +24,7 @@ Portfolio AI Engineer : API REST, intégration LLM (Anthropic Claude), et systè
 pip install fastapi uvicorn anthropic chromadb sentence-transformers
 
 # Définir la clé API Anthropic
-export ANTHROPIC_API_KEY="votre-cle-api"
+export ANTHROPIC_API_KEY=""
 
 # Lancer une des APIs
 uvicorn api_rag:app --reload
